@@ -7,17 +7,17 @@ export default function MedicalTreatment(props){
     <div>
        Name={props.name} 
        <br/>
-       Treatid = {props.id} 
+       Treat ID = {props.id} 
        <br/>
 
-       Course Id = {props.courseid}
+       Course ID = {props.courseid}
        <br/>
 
        Category = {props.category}  
        <br/>
        Type = {props.type}    
        <br/>       
-       StartDate = {props.startdate}
+       Start Date = {props.startdate}
       </div>
   )
 }

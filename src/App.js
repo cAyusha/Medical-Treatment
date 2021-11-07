@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import MedicalTreatment from './MedicalTreatment' ;
+import MedicalTreatmentPanel from './MedicalTreatmentPanel';
 
 const TreatId = "CA2021";
 const TreatCourseId= "195CD";
@@ -24,9 +25,15 @@ export default function App() {
       <h1> Medical Record </h1>
      <MedicalTreatment name = {Name} id = {TreatId} courseid =
      {TreatCourseId} type={TreatType} category ={TreatCategory} startdate = {StartDate}/>
-     <br/> <br/>
+     <br/>
+     <button onclick= {clickHandler}> Next </button>
 
-     <button onClick ={clickHandler}> Next </button>
+     <br/> <br/>
+     <h2> Medical Record </h2>
+
+     <MedicalTreatmentPanel/>
+
+     
 
 
 
