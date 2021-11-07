@@ -5,7 +5,7 @@ import "./style.css";
 export default function MedicalTreatment(props){
   return (
     <div>
-       Treat name={props.name} 
+       Name={props.name} 
        <br/>
        Treatid = {props.id} 
        <br/>
