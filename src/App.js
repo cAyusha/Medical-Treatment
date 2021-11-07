@@ -7,8 +7,8 @@ const TreatId = "CA2021";
 const TreatCourseId= "195CD";
 const TreatType = "A";
 const TreatCategory = "2";
-const Name = " Josh";
-const StartDate = "2021/02/3";
+const Name = " Josh";   
+const StartDate = "2021/02/3"; 
 
 
 function toString(nm ,id ,date,ty,cr,sd){
