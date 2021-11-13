@@ -3,6 +3,7 @@ import "./style.css";
 import MedicalTreatment from './MedicalTreatment' ;
 import MedicalTreatmentPanel from './MedicalTreatmentPanel';
 
+
 const TreatId = "CA2021";
 const TreatCourseId= "195CD";
 const TreatType = "A";

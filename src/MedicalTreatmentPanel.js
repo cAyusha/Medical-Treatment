@@ -16,10 +16,9 @@ function MedicalTreatmentPanel(){
 
 
 
-  function showClickHandler () {
-      window.alert("[" + "id = "+ treatId + ", name = "+treatName+ ", startdate = "+ startDate+",category= "+treatCategory+", type = "+treatType+", courseid = "+treatCourseId+"]");
+  
 
-  }
+  
 
   
   function clearClickHandler () {
@@ -43,7 +42,7 @@ function MedicalTreatmentPanel(){
 
           <br/><br/>
 
-          <input placeholder="Category " value={treatCategory}  onChange = { e => setTreatCategory(e.target.value)}  ></input>
+          <input placeholder="Category " value={treatCategory} onChange = { e => setTreatCategory(e.target.value)}  ></input>
           
           <br/><br/>
           <input placeholder="Course ID " value={treatCourseId}  onChange = { e => setTreatCourseId(e.target.value)}  ></input>
@@ -55,13 +54,23 @@ function MedicalTreatmentPanel(){
           <input placeholder="Start Date " value={startDate}  onChange = { e => setStartDate(e.target.value)}  ></input>
           <br/><br/>
 
-          <button style={{color:"green"}} onClick={showClickHandler}>Show</button>
+          <button id = "entry" >Input entry</button>
 
           <button style={{color:"purple"}} onClick={clearClickHandler}>Clear</button>
 
           <br/><br/><br/>
 
-          <input placeholder="Next"></input>
+          <table id = 'display'>
+              <tr>
+                  <th> TreatID</th>
+                  <th> Name</th>
+                  <th> Treat type</th>
+                  <th> Treat CourseID</th>
+                  <th> Category</th>
+                  <th> StartDate</th>
+                  </tr>
+                  </table>
+        
 
       </div>
   );
