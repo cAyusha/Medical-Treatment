@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import MedicalTreatment from './MedicalTreatment' ;
 import MedicalTreatmentPanel from './MedicalTreatmentPanel';
-
+import (medicalDatabase);
 
 const TreatId = "CA2021";
 const TreatCourseId= "195CD";
@@ -33,6 +33,7 @@ export default function App() {
      <h2> Medical Record </h2>
 
      <MedicalTreatmentPanel/>
+     
 
      
 
