@@ -14,8 +14,9 @@ function MedicalTreatmentPanel(){
 
 
 
-
-
+  function showClickHandler () {
+    window.alert("[" + "id = "+ treatId + ", name = "+treatName+ ", startdate = "+ startDate +",type = "+treatType+",courseid="+treatCourseId+",category="+treatCategory+"]");
+  }
   
 
   
@@ -54,7 +55,7 @@ function MedicalTreatmentPanel(){
           <input placeholder="Start Date " value={startDate}  onChange = { e => setStartDate(e.target.value)}  ></input>
           <br/><br/>
 
-          <button id = "entry" >Input entry</button>
+          <button style = {{color:"blue"}} onClick={showClickHandler}>Show</button>
 
           <button style={{color:"purple"}} onClick={clearClickHandler}>Clear</button>
 
