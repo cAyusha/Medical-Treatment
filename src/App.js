@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import MedicalTreatment from './MedicalTreatment' ;
 import MedicalTreatmentPanel from './MedicalTreatmentPanel';
-import (medicalDatabase);
+import MedicalTreatmentList from "./MedicalTreatment";
 
 const TreatId = "CA2021";
 const TreatCourseId= "195CD";
@@ -11,6 +11,10 @@ const TreatCategory = "2";
 const Name = " Josh";   
 const StartDate = "2021/02/3"; 
 
+
+const someRecords ='[{"id": "1935","name":"Ram"}]';
+const jsonRecords =[{id: "1935",name:"Ram"}];
+const records = JSON.stringify (jsonRecords);
 
 function toString(nm ,id ,date,ty,cr,sd){
   return nm+ ","+id+","+date+", "+ty+", "+cr+","+sd;
@@ -33,6 +37,7 @@ export default function App() {
      <h2> Medical Record </h2>
 
      <MedicalTreatmentPanel/>
+     <MedicalTreatmentList listJson = {records}/>
      
 
      

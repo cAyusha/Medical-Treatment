@@ -61,17 +61,7 @@ function MedicalTreatmentPanel(){
 
           <br/><br/><br/>
 
-          <table id = 'display'>
-              <tr>
-                  <th> TreatID</th>
-                  <th> Name</th>
-                  <th> Treat type</th>
-                  <th> Treat CourseID</th>
-                  <th> Category</th>
-                  <th> StartDate</th>
-                  </tr>
-                  </table>
-        
+         
 
       </div>
   );
