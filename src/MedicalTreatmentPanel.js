@@ -35,7 +35,7 @@ function MedicalTreatmentPanel(){
   return(
       <div>
 
-          <input placeholder="Treat ID" value={treatId}  onChange = { e => setTreatId(e.target.value)}  ></input>
+          <input placeholder="Treat Id" value={treatId}  onChange = { e => setTreatId(e.target.value)}  ></input>
 
           <br/><br/>
 
@@ -46,7 +46,7 @@ function MedicalTreatmentPanel(){
           <input placeholder="Category " value={treatCategory} onChange = { e => setTreatCategory(e.target.value)}  ></input>
           
           <br/><br/>
-          <input placeholder="Course ID " value={treatCourseId}  onChange = { e => setTreatCourseId(e.target.value)}  ></input>
+          <input placeholder="Course I " value={treatCourseId}  onChange = { e => setTreatCourseId(e.target.value)}  ></input>
           
 
           <br/><br/>

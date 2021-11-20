@@ -24,14 +24,14 @@ const StartDate = "2021/02/3";
 export default function App() {
   return (
     <div>
-      <h1> Medical Record </h1>
+      <h1 style={{color: "blue", background: "white"}}>Medical Record</h1>
      <MedicalTreatment name = {Name} id = {TreatId} courseid =
      {TreatCourseId} type={TreatType} category ={TreatCategory} startdate = {StartDate}/>
      <br/>
      <button onclick= {clickHandler}> Next </button>
      <br/> <br/>
-     {<h2> Medical Record </h2> }
-     {<MedicalTreatmentPanel/> }
+     <h2 style={{color: "blue", backgroundColor: "white"}}>Medical Record</h2>
+     <MedicalTreatmentPanel/> 
       
 
      
