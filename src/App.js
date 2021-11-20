@@ -6,10 +6,10 @@ import MedicalTreatmentPanel from './MedicalTreatmentPanel';
 
 const TreatId = "CA2021";
 const TreatCourseId= "195CD";
-const TreatType = "A";
-const TreatCategory = "2";
-const Name = " Josh";   
-const StartDate = "2021/02/3"; 
+const TreatType = "Long Term";
+const TreatCategory = "Cancer";
+const Name = " Josh Wagle";   
+const StartDate = "19/01/2021"; 
 
 
 
