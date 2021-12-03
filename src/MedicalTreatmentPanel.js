@@ -55,7 +55,7 @@ function MedicalTreatmentPanel(){
           <input placeholder="Start Date " value={startDate}  onChange = { e => setStartDate(e.target.value)}  ></input>
           <br/><br/>
 
-          <button style = {{color:"blue"}} onClick={showClickHandler}>Show</button>
+          <button style = {{color:"blue"}} onClick={showClickHandler}>Add</button>
 
           <button style={{color:"purple"}} onClick={clearClickHandler}>Clear</button>
 
