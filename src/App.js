@@ -11,13 +11,6 @@ const TreatCategory = "Cancer";
 const Name = " Josh Wagle";   
 const StartDate = "19/01/2021"; 
 
-
-
-
-  function toString(nm ,id ,date,ty,cr,sd){
-  return nm+ ","+id+","+date+", "+ty+", "+cr+","+sd;
-}
-
  function clickHandler(){
   window.alert(toString(TreatId,TreatType,TreatCourseId,TreatCategory,Name,StartDate))
 }
